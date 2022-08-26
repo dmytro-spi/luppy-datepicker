@@ -1,0 +1,26 @@
+@import "src/DatePicker/styles/variables";
+
+.day {
+  height: $day_cell_height;
+  width: $day_cell_width;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $day_font_size;
+  font-weight: $day_font_weight;
+  border-radius: $day_cell_border_radius;
+}
+
+.day__light {
+  background-color: $color_main;
+}
+
+.day__dark {
+  background-color: $color_main_dark;
+}
+
+.day__highlight {
+  background-color: $color_day_cell_highlight_background;
+  font-weight: $day_font_weight_highlight;
+  color: $color_day_cell_highlight_color;
+}

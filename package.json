@@ -1,5 +1,5 @@
 {
-  "name": "datepicker",
+  "name": "puppy-datepicker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,8 @@
     "@types/node": "^16.11.46",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "luxon": "^3.0.1",
+    "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -39,5 +41,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
